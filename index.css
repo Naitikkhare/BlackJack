@@ -1,0 +1,53 @@
+html
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; 
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url(pexels-raka-miftah-4253620.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* height:; */
+    font-size: 1.5rem;
+    margin-top:auto;
+    margin-bottom:auto;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(201, 81, 201);
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    border: none;
+    background-color:rgb(201, 81, 201);
+    font-size:1.2rem;
+    font-weight: bold;
+    color: aliceblue;
+    padding: 1rem;
+    margin: 0.2rem;
+    border-radius:0.2rem;
+}
+
+button:hover {
+    background-color:purple;
+    color: white;
+}
+
+#player-el {
+    color: white;
+    font-size: 2rem;
+    font-style: italic;
+}
